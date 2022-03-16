@@ -8,35 +8,35 @@
 
   ①注册asciinema账号：
 
-  ![1](1.asciinema\注册asciinema账号.png)
+  ![1](1\注册asciinema账号.png)
 
-  ②注册好了(后来改了个名字）:![2](1.asciinema\注册好了.png)
+  ②注册好了(后来改了个名字）:![2](1\注册好了.png)
 
   ③本地机安装asciinema——**sudo apt install asciinema**：
 
-  ![3](1.asciinema\安装asciinema.png)
+  ![3](1\安装asciinema.png)
 
-  ④进行**asciinema auth**，点进它给的链接。![4](1.asciinema\打开它给的链接.png)
+  ④进行**asciinema auth**，点进它给的链接。![4](1\打开它给的链接.png)
 
 - 确保本地已经完成**asciinema auth**，并在[asciinema](https://asciinema.org/)成功关联了本地账号和在线账号
 
-  ⑤在阿里云centos上安装asciinema时报错，网上搜索到解决办法：**sudo yum install asciinema** ![5](1.asciinema\网上搜的apt报错解决办法.png)
+  ⑤在阿里云centos上安装asciinema时报错，网上搜索到解决办法：**sudo yum install asciinema** ![5](1\网上搜的apt报错解决办法.png)
 
-  ⑥阿里云用apt下载用不了只能用yum:![6](\1.asciinema\阿里云用apt下载用不了只能用yum.png)
+  ⑥阿里云用apt下载用不了只能用yum:![6](1\阿里云用apt下载用不了只能用yum.png)
 
-  ⑦开始录制和结束录制:![7](1.asciinema\开始录制和结束录制.png)
+  ⑦开始录制和结束录制:![7](1\开始录制和结束录制.png)
 
-  ⑧按了enter后，保存到asciinema:![8](1.asciinema\按了enter后，保存到asciinema.org.png)
+  ⑧按了enter后，保存到asciinema:![8](1\按了enter后，保存到asciinema.org.png)
 
-  ⑨保存后在asciinema.org上自动生成录制:![9](1.asciinema\添加本地虚拟机录制视频.png)
+  ⑨保存后在asciinema.org上自动生成录制:![9](1\添加本地虚拟机录制视频.png)
 
-  ⑩阿里云进行录制，按了enter后自动保存:![10](1.asciinema\阿里云进行录制，按了enter后自动保存.png)
+  ⑩阿里云进行录制，按了enter后自动保存:![10](1\阿里云进行录制，按了enter后自动保存.png)
 
-  ①①保存后在asciinema.org上自动生成录制:![11](1.asciinema\保存后在asciinema.org上自动生成录制.png)
+  ①①保存后在asciinema.org上自动生成录制:![11](1\保存后在asciinema.org上自动生成录制.png)
 
-  ①②保存的阿里云录制视频：![12](1.asciinema\保存的录制视频.png)
+  ①②保存的阿里云录制视频：![12](1\保存的录制视频.png)
 
-  ①③分享页面，保存链接:![13](1.asciinema\分享页面，保存链接.png)
+  ①③分享页面，保存链接:![13](1\分享页面，保存链接.png)
 
 - 在自己的github仓库上新建markdown格式纯文本文件附上asciinema的分享URL
 
@@ -75,7 +75,7 @@
 
       删除不了tshark——我自己想的暴力办法：**whereis tshark**后cd到tshark的目录下，**rm tshark**，直接删除安装包。（试过yum remove tshark等一系列命令都不能直接删除，只能用这个办法可以成功删除）
 
-      ![0](报错\删除不了tshark.png)
+      ![0](2\删除不了tshark.png)
       
       
       

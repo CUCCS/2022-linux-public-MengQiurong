@@ -1265,4 +1265,25 @@ sudo umount /mnt/share
 
 - `Windows的文件属性下的共享` 设置变更与 `Virtualbox` 提供的 `vboxsf` 协议的共享是无关的。当然，我没有 `Windows 宿主机` 环境来验证我的这个推测，仅供参考。
 
-3.总结：感觉这次H3作业大部分都是在学习开关机自启动和分区的内容，多的还是开关机自启动。然后就感觉理解起来还是很好操作的。这次作业做的不好的就是对sda分区造成系统出错了，就长记性了，下次不会了。
+**3.总结：**
+
+感觉这次H3作业大部分都是在学习开关机自启动和分区的内容，多的还是开关机自启动。然后就感觉理解起来还是很好操作的。这次作业做的不好的就是对sda分区造成系统出错了，就长记性了，下次不会了。
+
+
+
+### 参考资料：
+
+1.[(44条消息) 用 systemd 配置一个简单的自动重启服务_weixin_34261415的博客-CSDN博客](https://blog.csdn.net/weixin_34261415/article/details/89053213?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-1.pc_relevant_antiscanv2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-1.pc_relevant_antiscanv2&utm_relevant_index=2)
+
+2.[在 Ubuntu 上使用 systemd 配置开机执行脚本 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/340755873)
+
+3.[Bash：修复 systemd 服务 203/EXEC 故障（没有此类文件或目录）|发展和平 (devpeace.com)](https://devpeace.com/bash/45776003/fixing-a-systemd-service-203-exec-failure-no-such-file-or-directory)
+
+4.[(44条消息) Lvm逻辑卷管理、创建、使用、扩展、缩减、迁移、快照、恢复_xusong1998的博客-CSDN博客](https://blog.csdn.net/xusong1998/article/details/110944930)
+
+5.[Linux系统下创建LV（逻辑卷）并挂载 - 云+社区 - 腾讯云 (tencent.com)](https://cloud.tencent.com/developer/article/1496311)
+
+6.[(44条消息) Virtualbox实现共享文件夹并自动挂载_半砖的博客-CSDN博客_共享文件夹自动挂载](https://blog.csdn.net/hexf9632/article/details/93774198)
+
+
+

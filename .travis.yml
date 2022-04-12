@@ -1,8 +1,10 @@
 language: bash
 before_install:
   - sudo apt-get update
-  - `sudo apt-get update && sudo apt-get install -y shellcheck`
+  - sudo apt-get update && sudo apt-get install -y shellcheck
   - sudo apt-get install imagemagick
+  - sudo apt-get install p7zip-full #解压
+  - sudo apt-get install ghostscript
 
 script:
   - wget "https://c4pr1c3.gitee.io/linuxsysadmin/exp/chap0x04/worldcupplayerinfo.tsv"
@@ -36,7 +38,7 @@ script:
   - bash h4-3.sh -g /shuttle/missions/sts-74/mission-sts-74.html
   - shellcheck h4-1.sh
   - shellcheck h4-2.sh
-  - shellcheck h4-3.sh
+  - shellcheck h4-3.sh
 notifications:
   email:
     on_success: never

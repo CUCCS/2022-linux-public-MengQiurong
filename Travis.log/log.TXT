@@ -1,0 +1,2145 @@
+travis_fold:start:worker_info
+[0K[33;1mWorker information[0m
+hostname: c7b96914-5f89-4375-be11-8f853f1b343e@1.worker-com-oss-6955bf87c5-lx49x.gce-production-3
+version: 6.2.22 https://github.com/travis-ci/worker/tree/858cb91994a513269f2fe9782c15fc113e966231
+instance: travis-job-fa15fd25-d8d2-4a56-919b-325630942b3c travis-ci-stevonnie-xenial-1642789663-31a09d16 (via amqp)
+startup: 6.59496839s
+travis_fold:end:worker_info
+[0Ktravis_time:start:09d1880c
+[0Ktravis_time:end:09d1880c:start=1649737038804455412,finish=1649737038960757131,duration=156301719,event=no_world_writable_dirs
+[0Ktravis_time:start:02780b52
+[0Ktravis_time:end:02780b52:start=1649737038964595345,finish=1649737038974110521,duration=9515176,event=agent
+[0Ktravis_time:start:15289b00
+[0Ktravis_time:end:15289b00:start=1649737038977001664,finish=1649737038979502934,duration=2501270,event=check_unsupported
+[0Ktravis_time:start:14921d3c
+[0Ktravis_fold:start:system_info
+[0K[33;1mBuild system information[0m
+Build language: shell
+Build dist: xenial
+Build id: 249267098
+Job id: 566737613
+Runtime kernel version: 4.15.0-1098-gcp
+travis-build version: d6994a17
+[34m[1mBuild image provisioning date and time[0m
+Fri Jan 21 18:43:24 UTC 2022
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.7 LTS
+Release:	16.04
+Codename:	xenial
+[34m[1mSystemd Version[0m
+systemd 229
+[34m[1mCookbooks Version[0m
+4e5bfc1 https://github.com/travis-ci/travis-cookbooks/tree/4e5bfc1
+[34m[1mgit version[0m
+git version 2.34.1
+[34m[1mbash version[0m
+GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609
+[34m[1mdocker version[0m
+Client: Docker Engine - Community
+ Version:           20.10.7
+ API version:       1.41
+ Go version:        go1.13.15
+ Git commit:        f0df350
+ Built:             Wed Jun  2 11:56:47 2021
+ OS/Arch:           linux/amd64
+ Context:           default
+ Experimental:      true
+
+Server: Docker Engine - Community
+ Engine:
+  Version:          20.10.7
+  API version:      1.41 (minimum version 1.12)
+  Go version:       go1.13.15
+  Git commit:       b0f5bc3
+  Built:            Wed Jun  2 11:54:58 2021
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          1.4.6
+  GitCommit:        d71fcd7d8303cbf684402823e425e9dd2e99285d
+ runc:
+  Version:          1.0.0-rc95
+  GitCommit:        b9ee9c6314599f1b4a7f497e1f1f856fe433d3b7
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+[34m[1mclang version[0m
+clang version 7.0.0 (tags/RELEASE_700/final)
+[34m[1mjq version[0m
+jq-1.6
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.7.2
+[34m[1mshfmt version[0m
+v3.2.1
+[34m[1mccache version[0m
+3.2.4
+[34m[1mcmake version[0m
+cmake version 3.12.4
+[34m[1mheroku version[0m
+heroku/7.59.2 linux-x64 node-v12.21.0
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.8.9-9 Q16 x86_64 2020-12-04 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 4.8
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.7.33, for Linux (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.0.2g  1 Mar 2016
+[34m[1mpacker version[0m
+1.7.5
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 9.5.25
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.8 Feb 2013
+[34m[1msudo version[0m
+1.8.16
+[34m[1mgzip version[0m
+gzip 1.6
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Oct 13 2020 16:04:38)
+[34m[1miptables version[0m
+iptables v1.6.0
+[34m[1mcurl version[0m
+curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.17.1 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.1  protocol version 31
+[34m[1mgimme version[0m
+v1.5.4
+[34m[1mnvm version[0m
+0.39.1
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.94
+[34m[1mphpenv version[0m
+rbenv 1.2.0-8-ga76c4aa
+[34m[1mrvm version[0m
+rvm 1.29.12 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+travis_fold:end:system_info
+[0K
+travis_time:end:14921d3c:start=1649737038982799856,finish=1649737038991314340,duration=8514484,event=show_system_info
+[0Ktravis_time:start:0af89b5b
+[0Ktravis_time:end:0af89b5b:start=1649737038994999465,finish=1649737039012113049,duration=17113584,event=rm_riak_source
+[0Ktravis_time:start:15c8a883
+[0Ktravis_time:end:15c8a883:start=1649737039016217190,finish=1649737039023577521,duration=7360331,event=fix_rwky_redis
+[0Ktravis_time:start:18c80043
+[0Ktravis_time:end:18c80043:start=1649737039028023122,finish=1649737039679769159,duration=651746037,event=wait_for_network
+[0Ktravis_time:start:12878986
+[0Ktravis_time:end:12878986:start=1649737039682967277,finish=1649737039893054804,duration=210087527,event=update_apt_keys
+[0Ktravis_time:start:0cfe1558
+[0Ktravis_time:end:0cfe1558:start=1649737039896369308,finish=1649737039961116482,duration=64747174,event=fix_hhvm_source
+[0Ktravis_time:start:2b96b954
+[0Ktravis_time:end:2b96b954:start=1649737039965956245,finish=1649737039969618242,duration=3661997,event=update_mongo_arch
+[0Ktravis_time:start:16cd1e4e
+[0Ktravis_time:end:16cd1e4e:start=1649737039973284314,finish=1649737040019740990,duration=46456676,event=fix_sudo_enabled_trusty
+[0Ktravis_time:start:1f5e0b68
+[0Ktravis_time:end:1f5e0b68:start=1649737040023256196,finish=1649737040025585448,duration=2329252,event=update_glibc
+[0Ktravis_time:start:19ce963f
+[0Ktravis_time:end:19ce963f:start=1649737040028649889,finish=1649737040037349905,duration=8700016,event=clean_up_path
+[0Ktravis_time:start:0ad83bf0
+[0Ktravis_time:end:0ad83bf0:start=1649737040041201806,finish=1649737040050481875,duration=9280069,event=fix_resolv_conf
+[0Ktravis_time:start:0395f63e
+[0Ktravis_time:end:0395f63e:start=1649737040053649013,finish=1649737040063365205,duration=9716192,event=fix_etc_hosts
+[0Ktravis_time:start:04fbbe00
+[0Ktravis_time:end:04fbbe00:start=1649737040067766989,finish=1649737040079337267,duration=11570278,event=fix_mvn_settings_xml
+[0Ktravis_time:start:0933af68
+[0Ktravis_time:end:0933af68:start=1649737040083248632,finish=1649737040095078463,duration=11829831,event=no_ipv6_localhost
+[0Ktravis_time:start:26aaf249
+[0Ktravis_time:end:26aaf249:start=1649737040098574625,finish=1649737040101181492,duration=2606867,event=fix_etc_mavenrc
+[0Ktravis_time:start:02e9deef
+[0Ktravis_time:end:02e9deef:start=1649737040104445608,finish=1649737040107519813,duration=3074205,event=fix_wwdr_certificate
+[0Ktravis_time:start:1d677146
+[0Ktravis_time:end:1d677146:start=1649737040110495011,finish=1649737040142097493,duration=31602482,event=put_localhost_first
+[0Ktravis_time:start:17916a70
+[0Ktravis_time:end:17916a70:start=1649737040145357506,finish=1649737040148629840,duration=3272334,event=home_paths
+[0Ktravis_time:start:15fc9660
+[0Ktravis_time:end:15fc9660:start=1649737040152023421,finish=1649737040164638714,duration=12615293,event=disable_initramfs
+[0Ktravis_time:start:09ca2e5a
+[0Ktravis_time:end:09ca2e5a:start=1649737040168051664,finish=1649737040525948452,duration=357896788,event=disable_ssh_roaming
+[0Ktravis_time:start:15f71178
+[0Ktravis_time:end:15f71178:start=1649737040529265565,finish=1649737040531626431,duration=2360866,event=debug_tools
+[0Ktravis_time:start:070b4188
+[0Ktravis_time:end:070b4188:start=1649737040535955752,finish=1649737040540050900,duration=4095148,event=uninstall_oclint
+[0Ktravis_time:start:07a7b340
+[0Ktravis_time:end:07a7b340:start=1649737040544006687,finish=1649737040547518038,duration=3511351,event=rvm_use
+[0Ktravis_time:start:0d01d56f
+[0Ktravis_time:end:0d01d56f:start=1649737040550918418,finish=1649737040560652351,duration=9733933,event=rm_etc_boto_cfg
+[0Ktravis_time:start:26e5d460
+[0Ktravis_time:end:26e5d460:start=1649737040564631907,finish=1649737040569719992,duration=5088085,event=rm_oraclejdk8_symlink
+[0Ktravis_time:start:1a737ca0
+[0Ktravis_time:end:1a737ca0:start=1649737040572904324,finish=1649737040687790858,duration=114886534,event=enable_i386
+[0Ktravis_time:start:0eb0e2d2
+[0Ktravis_time:end:0eb0e2d2:start=1649737040691841624,finish=1649737040696477632,duration=4636008,event=update_rubygems
+[0Ktravis_time:start:2240c0aa
+[0Ktravis_time:end:2240c0aa:start=1649737040701192316,finish=1649737040715232135,duration=14039819,event=ensure_path_components
+[0Ktravis_time:start:0246182d
+[0Ktravis_time:end:0246182d:start=1649737040719535996,finish=1649737040722648985,duration=3112989,event=redefine_curl
+[0Ktravis_time:start:0c48c83d
+[0Ktravis_time:end:0c48c83d:start=1649737040725949712,finish=1649737040729135599,duration=3185887,event=nonblock_pipe
+[0Ktravis_time:start:2e0704ae
+[0Ktravis_time:end:2e0704ae:start=1649737040732547971,finish=1649737057120028829,duration=16387480858,event=apt_get_update
+[0Ktravis_time:start:05fe9458
+[0Ktravis_time:end:05fe9458:start=1649737057123385793,finish=1649737057125660826,duration=2275033,event=deprecate_xcode_64
+[0Ktravis_time:start:1627f3ec
+[0Ktravis_time:end:1627f3ec:start=1649737057128579330,finish=1649737061112041746,duration=3983462416,event=update_heroku
+[0Ktravis_time:start:0fda102c
+[0Ktravis_time:end:0fda102c:start=1649737061115252534,finish=1649737061117534595,duration=2282061,event=shell_session_update
+[0Ktravis_time:start:02ae59da
+[0Ktravis_fold:start:docker_mtu_and_registry_mirrors
+[0Ktravis_fold:end:docker_mtu_and_registry_mirrors
+[0Ktravis_time:end:02ae59da:start=1649737061120724033,finish=1649737064983546220,duration=3862822187,event=set_docker_mtu_and_registry_mirrors
+[0Ktravis_time:start:01541e80
+[0Ktravis_fold:start:resolvconf
+[0Ktravis_fold:end:resolvconf
+[0Ktravis_time:end:01541e80:start=1649737064987849007,finish=1649737065062213818,duration=74364811,event=resolvconf
+[0Ktravis_time:start:1b1bf868
+[0Ktravis_time:end:1b1bf868:start=1649737065066311921,finish=1649737065231291876,duration=164979955,event=maven_central_mirror
+[0Ktravis_time:start:0600b988
+[0Ktravis_time:end:0600b988:start=1649737065234875527,finish=1649737065348228341,duration=113352814,event=maven_https
+[0Ktravis_time:start:3951533b
+[0Ktravis_time:end:3951533b:start=1649737065352792341,finish=1649737065355322118,duration=2529777,event=fix_ps4
+[0Ktravis_time:start:00535cc6
+[0K
+travis_fold:start:git.checkout
+[0Ktravis_time:start:16d76020
+[0K$ git clone --depth=50 --branch=H4 https://github.com/CUCCS/2022-linux-public-MengQiurong.git CUCCS/2022-linux-public-MengQiurong
+Cloning into 'CUCCS/2022-linux-public-MengQiurong'...
+remote: Enumerating objects: 135, done.[K
+remote: Counting objects:   0% (1/135)[K
+remote: Counting objects:   1% (2/135)[K
+remote: Counting objects:   2% (3/135)[K
+remote: Counting objects:   3% (5/135)[K
+remote: Counting objects:   4% (6/135)[K
+remote: Counting objects:   5% (7/135)[K
+remote: Counting objects:   6% (9/135)[K
+remote: Counting objects:   7% (10/135)[K
+remote: Counting objects:   8% (11/135)[K
+remote: Counting objects:   9% (13/135)[K
+remote: Counting objects:  10% (14/135)[K
+remote: Counting objects:  11% (15/135)[K
+remote: Counting objects:  12% (17/135)[K
+remote: Counting objects:  13% (18/135)[K
+remote: Counting objects:  14% (19/135)[K
+remote: Counting objects:  15% (21/135)[K
+remote: Counting objects:  16% (22/135)[K
+remote: Counting objects:  17% (23/135)[K
+remote: Counting objects:  18% (25/135)[K
+remote: Counting objects:  19% (26/135)[K
+remote: Counting objects:  20% (27/135)[K
+remote: Counting objects:  21% (29/135)[K
+remote: Counting objects:  22% (30/135)[K
+remote: Counting objects:  23% (32/135)[K
+remote: Counting objects:  24% (33/135)[K
+remote: Counting objects:  25% (34/135)[K
+remote: Counting objects:  26% (36/135)[K
+remote: Counting objects:  27% (37/135)[K
+remote: Counting objects:  28% (38/135)[K
+remote: Counting objects:  29% (40/135)[K
+remote: Counting objects:  30% (41/135)[K
+remote: Counting objects:  31% (42/135)[K
+remote: Counting objects:  32% (44/135)[K
+remote: Counting objects:  33% (45/135)[K
+remote: Counting objects:  34% (46/135)[K
+remote: Counting objects:  35% (48/135)[K
+remote: Counting objects:  36% (49/135)[K
+remote: Counting objects:  37% (50/135)[K
+remote: Counting objects:  38% (52/135)[K
+remote: Counting objects:  39% (53/135)[K
+remote: Counting objects:  40% (54/135)[K
+remote: Counting objects:  41% (56/135)[K
+remote: Counting objects:  42% (57/135)[K
+remote: Counting objects:  43% (59/135)[K
+remote: Counting objects:  44% (60/135)[K
+remote: Counting objects:  45% (61/135)[K
+remote: Counting objects:  46% (63/135)[K
+remote: Counting objects:  47% (64/135)[K
+remote: Counting objects:  48% (65/135)[K
+remote: Counting objects:  49% (67/135)[K
+remote: Counting objects:  50% (68/135)[K
+remote: Counting objects:  51% (69/135)[K
+remote: Counting objects:  52% (71/135)[K
+remote: Counting objects:  53% (72/135)[K
+remote: Counting objects:  54% (73/135)[K
+remote: Counting objects:  55% (75/135)[K
+remote: Counting objects:  56% (76/135)[K
+remote: Counting objects:  57% (77/135)[K
+remote: Counting objects:  58% (79/135)[K
+remote: Counting objects:  59% (80/135)[K
+remote: Counting objects:  60% (81/135)[K
+remote: Counting objects:  61% (83/135)[K
+remote: Counting objects:  62% (84/135)[K
+remote: Counting objects:  63% (86/135)[K
+remote: Counting objects:  64% (87/135)[K
+remote: Counting objects:  65% (88/135)[K
+remote: Counting objects:  66% (90/135)[K
+remote: Counting objects:  67% (91/135)[K
+remote: Counting objects:  68% (92/135)[K
+remote: Counting objects:  69% (94/135)[K
+remote: Counting objects:  70% (95/135)[K
+remote: Counting objects:  71% (96/135)[K
+remote: Counting objects:  72% (98/135)[K
+remote: Counting objects:  73% (99/135)[K
+remote: Counting objects:  74% (100/135)[K
+remote: Counting objects:  75% (102/135)[K
+remote: Counting objects:  76% (103/135)[K
+remote: Counting objects:  77% (104/135)[K
+remote: Counting objects:  78% (106/135)[K
+remote: Counting objects:  79% (107/135)[K
+remote: Counting objects:  80% (108/135)[K
+remote: Counting objects:  81% (110/135)[K
+remote: Counting objects:  82% (111/135)[K
+remote: Counting objects:  83% (113/135)[K
+remote: Counting objects:  84% (114/135)[K
+remote: Counting objects:  85% (115/135)[K
+remote: Counting objects:  86% (117/135)[K
+remote: Counting objects:  87% (118/135)[K
+remote: Counting objects:  88% (119/135)[K
+remote: Counting objects:  89% (121/135)[K
+remote: Counting objects:  90% (122/135)[K
+remote: Counting objects:  91% (123/135)[K
+remote: Counting objects:  92% (125/135)[K
+remote: Counting objects:  93% (126/135)[K
+remote: Counting objects:  94% (127/135)[K
+remote: Counting objects:  95% (129/135)[K
+remote: Counting objects:  96% (130/135)[K
+remote: Counting objects:  97% (131/135)[K
+remote: Counting objects:  98% (133/135)[K
+remote: Counting objects:  99% (134/135)[K
+remote: Counting objects: 100% (135/135)[K
+remote: Counting objects: 100% (135/135), done.[K
+remote: Compressing objects:   0% (1/121)[K
+remote: Compressing objects:   1% (2/121)[K
+remote: Compressing objects:   2% (3/121)[K
+remote: Compressing objects:   3% (4/121)[K
+remote: Compressing objects:   4% (5/121)[K
+remote: Compressing objects:   5% (7/121)[K
+remote: Compressing objects:   6% (8/121)[K
+remote: Compressing objects:   7% (9/121)[K
+remote: Compressing objects:   8% (10/121)[K
+remote: Compressing objects:   9% (11/121)[K
+remote: Compressing objects:  10% (13/121)[K
+remote: Compressing objects:  11% (14/121)[K
+remote: Compressing objects:  12% (15/121)[K
+remote: Compressing objects:  13% (16/121)[K
+remote: Compressing objects:  14% (17/121)[K
+remote: Compressing objects:  15% (19/121)[K
+remote: Compressing objects:  16% (20/121)[K
+remote: Compressing objects:  17% (21/121)[K
+remote: Compressing objects:  18% (22/121)[K
+remote: Compressing objects:  19% (23/121)[K
+remote: Compressing objects:  20% (25/121)[K
+remote: Compressing objects:  21% (26/121)[K
+remote: Compressing objects:  22% (27/121)[K
+remote: Compressing objects:  23% (28/121)[K
+remote: Compressing objects:  24% (30/121)[K
+remote: Compressing objects:  25% (31/121)[K
+remote: Compressing objects:  26% (32/121)[K
+remote: Compressing objects:  27% (33/121)[K
+remote: Compressing objects:  28% (34/121)[K
+remote: Compressing objects:  29% (36/121)[K
+remote: Compressing objects:  30% (37/121)[K
+remote: Compressing objects:  31% (38/121)[K
+remote: Compressing objects:  32% (39/121)[K
+remote: Compressing objects:  33% (40/121)[K
+remote: Compressing objects:  34% (42/121)[K
+remote: Compressing objects:  35% (43/121)[K
+remote: Compressing objects:  36% (44/121)[K
+remote: Compressing objects:  37% (45/121)[K
+remote: Compressing objects:  38% (46/121)[K
+remote: Compressing objects:  39% (48/121)[K
+remote: Compressing objects:  40% (49/121)[K
+remote: Compressing objects:  41% (50/121)[K
+remote: Compressing objects:  42% (51/121)[K
+remote: Compressing objects:  43% (53/121)[K
+remote: Compressing objects:  44% (54/121)[K
+remote: Compressing objects:  45% (55/121)[K
+remote: Compressing objects:  46% (56/121)[K
+remote: Compressing objects:  47% (57/121)[K
+remote: Compressing objects:  48% (59/121)[K
+remote: Compressing objects:  49% (60/121)[K
+remote: Compressing objects:  50% (61/121)[K
+remote: Compressing objects:  51% (62/121)[K
+remote: Compressing objects:  52% (63/121)[K
+remote: Compressing objects:  53% (65/121)[K
+remote: Compressing objects:  54% (66/121)[K
+remote: Compressing objects:  55% (67/121)[K
+remote: Compressing objects:  56% (68/121)[K
+remote: Compressing objects:  57% (69/121)[K
+remote: Compressing objects:  58% (71/121)[K
+remote: Compressing objects:  59% (72/121)[K
+remote: Compressing objects:  60% (73/121)[K
+remote: Compressing objects:  61% (74/121)[K
+remote: Compressing objects:  62% (76/121)[K
+remote: Compressing objects:  63% (77/121)[K
+remote: Compressing objects:  64% (78/121)[K
+remote: Compressing objects:  65% (79/121)[K
+remote: Compressing objects:  66% (80/121)[K
+remote: Compressing objects:  67% (82/121)[K
+remote: Compressing objects:  68% (83/121)[K
+remote: Compressing objects:  69% (84/121)[K
+remote: Compressing objects:  70% (85/121)[K
+remote: Compressing objects:  71% (86/121)[K
+remote: Compressing objects:  72% (88/121)[K
+remote: Compressing objects:  73% (89/121)[K
+remote: Compressing objects:  74% (90/121)[K
+remote: Compressing objects:  75% (91/121)[K
+remote: Compressing objects:  76% (92/121)[K
+remote: Compressing objects:  77% (94/121)[K
+remote: Compressing objects:  78% (95/121)[K
+remote: Compressing objects:  79% (96/121)[K
+remote: Compressing objects:  80% (97/121)[K
+remote: Compressing objects:  81% (99/121)[K
+remote: Compressing objects:  82% (100/121)[K
+remote: Compressing objects:  83% (101/121)[K
+remote: Compressing objects:  84% (102/121)[K
+remote: Compressing objects:  85% (103/121)[K
+remote: Compressing objects:  86% (105/121)[K
+remote: Compressing objects:  87% (106/121)[K
+remote: Compressing objects:  88% (107/121)[K
+remote: Compressing objects:  89% (108/121)[K
+remote: Compressing objects:  90% (109/121)[K
+remote: Compressing objects:  91% (111/121)[K
+remote: Compressing objects:  92% (112/121)[K
+remote: Compressing objects:  93% (113/121)[K
+remote: Compressing objects:  94% (114/121)[K
+remote: Compressing objects:  95% (115/121)[K
+remote: Compressing objects:  96% (117/121)[K
+remote: Compressing objects:  97% (118/121)[K
+remote: Compressing objects:  98% (119/121)[K
+remote: Compressing objects:  99% (120/121)[K
+remote: Compressing objects: 100% (121/121)[K
+remote: Compressing objects: 100% (121/121), done.[K
+Receiving objects:   0% (1/135)
+Receiving objects:   1% (2/135)
+Receiving objects:   2% (3/135)
+Receiving objects:   3% (5/135)
+Receiving objects:   4% (6/135)
+Receiving objects:   5% (7/135)
+Receiving objects:   6% (9/135)
+Receiving objects:   7% (10/135)
+Receiving objects:   8% (11/135)
+Receiving objects:   9% (13/135)
+Receiving objects:  10% (14/135)
+Receiving objects:  11% (15/135)
+Receiving objects:  12% (17/135)
+Receiving objects:  13% (18/135)
+Receiving objects:  14% (19/135)
+Receiving objects:  15% (21/135)
+Receiving objects:  16% (22/135)
+Receiving objects:  17% (23/135)
+Receiving objects:  18% (25/135)
+Receiving objects:  19% (26/135)
+Receiving objects:  20% (27/135)
+Receiving objects:  21% (29/135)
+Receiving objects:  22% (30/135)
+Receiving objects:  23% (32/135)
+Receiving objects:  24% (33/135)
+Receiving objects:  25% (34/135)
+Receiving objects:  26% (36/135)
+Receiving objects:  27% (37/135)
+Receiving objects:  28% (38/135)
+Receiving objects:  29% (40/135)
+Receiving objects:  30% (41/135)
+Receiving objects:  31% (42/135)
+Receiving objects:  32% (44/135)
+Receiving objects:  33% (45/135)
+Receiving objects:  34% (46/135)
+Receiving objects:  35% (48/135)
+Receiving objects:  36% (49/135)
+Receiving objects:  37% (50/135)
+Receiving objects:  38% (52/135)
+Receiving objects:  39% (53/135)
+Receiving objects:  40% (54/135)
+Receiving objects:  41% (56/135)
+Receiving objects:  42% (57/135)
+Receiving objects:  43% (59/135)
+Receiving objects:  44% (60/135)
+Receiving objects:  45% (61/135)
+Receiving objects:  46% (63/135)
+Receiving objects:  47% (64/135)
+Receiving objects:  48% (65/135)
+Receiving objects:  49% (67/135)
+Receiving objects:  50% (68/135)
+Receiving objects:  51% (69/135)
+Receiving objects:  52% (71/135)
+Receiving objects:  53% (72/135)
+Receiving objects:  54% (73/135)
+Receiving objects:  55% (75/135)
+Receiving objects:  56% (76/135)
+Receiving objects:  57% (77/135)
+Receiving objects:  58% (79/135)
+Receiving objects:  59% (80/135)
+Receiving objects:  60% (81/135)
+Receiving objects:  61% (83/135)
+Receiving objects:  62% (84/135)
+Receiving objects:  63% (86/135)
+Receiving objects:  64% (87/135)
+Receiving objects:  65% (88/135)
+Receiving objects:  66% (90/135)
+Receiving objects:  67% (91/135)
+Receiving objects:  68% (92/135)
+Receiving objects:  69% (94/135)
+Receiving objects:  70% (95/135)
+Receiving objects:  71% (96/135)
+Receiving objects:  72% (98/135)
+Receiving objects:  73% (99/135)
+Receiving objects:  74% (100/135)
+Receiving objects:  75% (102/135)
+Receiving objects:  76% (103/135)
+Receiving objects:  77% (104/135)
+Receiving objects:  78% (106/135)
+Receiving objects:  79% (107/135)
+Receiving objects:  80% (108/135)
+Receiving objects:  81% (110/135)
+Receiving objects:  82% (111/135)
+Receiving objects:  83% (113/135)
+Receiving objects:  84% (114/135)
+Receiving objects:  85% (115/135)
+Receiving objects:  86% (117/135)
+Receiving objects:  87% (118/135)
+Receiving objects:  88% (119/135)
+Receiving objects:  89% (121/135)
+Receiving objects:  90% (122/135)
+Receiving objects:  91% (123/135)
+remote: Total 135 (delta 16), reused 126 (delta 9), pack-reused 0[K
+Receiving objects:  92% (125/135)
+Receiving objects:  93% (126/135)
+Receiving objects:  94% (127/135)
+Receiving objects:  95% (129/135)
+Receiving objects:  96% (130/135)
+Receiving objects:  97% (131/135)
+Receiving objects:  98% (133/135)
+Receiving objects:  99% (134/135)
+Receiving objects: 100% (135/135)
+Receiving objects: 100% (135/135), 17.01 MiB | 38.21 MiB/s, done.
+Resolving deltas:   0% (0/16)
+Resolving deltas:   6% (1/16)
+Resolving deltas:  12% (2/16)
+Resolving deltas:  18% (3/16)
+Resolving deltas:  25% (4/16)
+Resolving deltas:  31% (5/16)
+Resolving deltas:  37% (6/16)
+Resolving deltas:  43% (7/16)
+Resolving deltas:  50% (8/16)
+Resolving deltas:  56% (9/16)
+Resolving deltas:  62% (10/16)
+Resolving deltas:  68% (11/16)
+Resolving deltas:  75% (12/16)
+Resolving deltas:  81% (13/16)
+Resolving deltas:  87% (14/16)
+Resolving deltas:  93% (15/16)
+Resolving deltas: 100% (16/16)
+Resolving deltas: 100% (16/16), done.
+travis_time:end:16d76020:start=1649737065364325109,finish=1649737066450110204,duration=1085785095,event=checkout
+[0K$ cd CUCCS/2022-linux-public-MengQiurong
+$ git checkout -qf 36ef0e6cc5c15de04388ec15da6774654584b82f
+travis_fold:end:git.checkout
+[0K
+travis_time:end:16d76020:start=1649737065364325109,finish=1649737066577744006,duration=1213418897,event=checkout
+[0Ktravis_time:start:27a11621
+[0Ktravis_time:end:27a11621:start=1649737066581359481,finish=1649737066588531772,duration=7172291,event=env
+[0K$ bash -c 'echo $BASH_VERSION'
+4.3.48(1)-release
+
+travis_fold:start:before_install.1
+[0Ktravis_time:start:04e29aa7
+[0K$ sudo apt-get update
+
+0% [Working]
+            
+Hit:1 http://security.ubuntu.com/ubuntu xenial-security InRelease
+
+0% [Waiting for headers] [Waiting for headers]
+                                              
+Hit:2 http://archive.ubuntu.com/ubuntu xenial InRelease
+
+                                              
+Hit:3 http://apt.postgresql.org/pub/repos/apt xenial-pgdg InRelease
+
+                                              
+0% [Waiting for headers]
+0% [1 InRelease gpgv 99.8 kB] [Waiting for headers]
+                                                   
+0% [Waiting for headers]
+0% [2 InRelease gpgv 247 kB] [Waiting for headers]
+                                                  
+Hit:4 http://archive.ubuntu.com/ubuntu xenial-updates InRelease
+
+0% [2 InRelease gpgv 247 kB] [Waiting for headers]
+                                                  
+Hit:5 https://esm.ubuntu.com/infra/ubuntu xenial-infra-security InRelease
+
+0% [2 InRelease gpgv 247 kB] [Waiting for headers]
+                                                  
+Hit:6 https://esm.ubuntu.com/infra/ubuntu xenial-infra-updates InRelease
+
+0% [2 InRelease gpgv 247 kB] [Waiting for headers]
+                                                  
+0% [Waiting for headers]
+0% [3 InRelease gpgv 76.6 kB] [Waiting for headers]
+                                                   
+Hit:7 http://archive.ubuntu.com/ubuntu xenial-backports InRelease
+
+                                                   
+0% [3 InRelease gpgv 76.6 kB]
+                             
+0% [Working]
+0% [4 InRelease gpgv 99.8 kB]
+                             
+0% [Working]
+0% [5 InRelease gpgv 7,515 B]
+                             
+0% [Working]
+0% [6 InRelease gpgv 7,475 B]
+                             
+0% [Working]
+0% [7 InRelease gpgv 97.4 kB]
+                             
+20% [Working]
+             
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 1%
+
+Reading package lists... 3%
+
+Reading package lists... 3%
+
+Reading package lists... 6%
+
+Reading package lists... 6%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 28%
+
+Reading package lists... 28%
+
+Reading package lists... 33%
+
+Reading package lists... 48%
+
+Reading package lists... 48%
+
+Reading package lists... 60%
+
+Reading package lists... 60%
+
+Reading package lists... 60%
+
+Reading package lists... 60%
+
+Reading package lists... 60%
+
+Reading package lists... 60%
+
+Reading package lists... 61%
+
+Reading package lists... 61%
+
+Reading package lists... 66%
+
+Reading package lists... 66%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 78%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 88%
+
+Reading package lists... 88%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+travis_time:end:04e29aa7:start=1649737066595921379,finish=1649737069273280271,duration=2677358892,event=before_install
+[0Ktravis_fold:end:before_install.1
+[0Ktravis_fold:start:before_install.2
+[0Ktravis_time:start:0f349d57
+[0K$ sudo apt-get update && sudo apt-get install -y shellcheck
+
+0% [Working]
+            
+Hit:1 http://archive.ubuntu.com/ubuntu xenial InRelease
+
+0% [Waiting for headers] [Waiting for headers]
+                                              
+Hit:2 http://security.ubuntu.com/ubuntu xenial-security InRelease
+
+0% [Waiting for headers] [Waiting for headers]
+0% [1 InRelease gpgv 247 kB] [Waiting for headers] [Waiting for headers]
+                                                                        
+Hit:3 http://apt.postgresql.org/pub/repos/apt xenial-pgdg InRelease
+
+                                                                        
+0% [1 InRelease gpgv 247 kB] [Waiting for headers]
+                                                  
+Hit:4 https://esm.ubuntu.com/infra/ubuntu xenial-infra-security InRelease
+
+0% [1 InRelease gpgv 247 kB] [Waiting for headers]
+                                                  
+0% [Waiting for headers]
+                        
+Hit:5 https://esm.ubuntu.com/infra/ubuntu xenial-infra-updates InRelease
+
+0% [Waiting for headers]
+0% [2 InRelease gpgv 99.8 kB] [Waiting for headers]
+                                                   
+Hit:6 http://archive.ubuntu.com/ubuntu xenial-updates InRelease
+
+0% [2 InRelease gpgv 99.8 kB] [Waiting for headers]
+                                                   
+0% [Waiting for headers]
+0% [3 InRelease gpgv 76.6 kB] [Waiting for headers]
+                                                   
+Hit:7 http://archive.ubuntu.com/ubuntu xenial-backports InRelease
+
+                                                   
+0% [3 InRelease gpgv 76.6 kB]
+                             
+0% [Working]
+0% [4 InRelease gpgv 7,515 B]
+                             
+0% [Working]
+0% [5 InRelease gpgv 7,475 B]
+                             
+0% [Working]
+0% [6 InRelease gpgv 99.8 kB]
+                             
+0% [Working]
+0% [7 InRelease gpgv 97.4 kB]
+                             
+20% [Working]
+             
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 1%
+
+Reading package lists... 3%
+
+Reading package lists... 3%
+
+Reading package lists... 6%
+
+Reading package lists... 6%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 28%
+
+Reading package lists... 28%
+
+Reading package lists... 34%
+
+Reading package lists... 48%
+
+Reading package lists... 48%
+
+Reading package lists... 60%
+
+Reading package lists... 60%
+
+Reading package lists... 60%
+
+Reading package lists... 60%
+
+Reading package lists... 60%
+
+Reading package lists... 60%
+
+Reading package lists... 61%
+
+Reading package lists... 61%
+
+Reading package lists... 66%
+
+Reading package lists... 66%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 79%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 88%
+
+Reading package lists... 88%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following NEW packages will be installed:
+  shellcheck
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 1,603 kB of archives.
+After this operation, 13.3 MB of additional disk space will be used.
+
+0% [Working]
+            
+Get:1 http://archive.ubuntu.com/ubuntu xenial/universe amd64 shellcheck amd64 0.3.7-5 [1,603 kB]
+
+1% [1 shellcheck 12.6 kB/1,603 kB 1%]
+17% [1 shellcheck 350 kB/1,603 kB 22%]
+                                      
+100% [Working]
+              
+Fetched 1,603 kB in 0s (1,747 kB/s)
+Selecting previously unselected package shellcheck.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 118416 files and directories currently installed.)
+Preparing to unpack .../shellcheck_0.3.7-5_amd64.deb ...
+Unpacking shellcheck (0.3.7-5) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up shellcheck (0.3.7-5) ...
+travis_time:end:0f349d57:start=1649737069276979548,finish=1649737076919423350,duration=7642443802,event=before_install
+[0Ktravis_fold:end:before_install.2
+[0Ktravis_fold:start:before_install.3
+[0Ktravis_time:start:09a3069e
+[0K$ sudo apt-get install imagemagick
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+imagemagick is already the newest version (8:6.8.9.9-7ubuntu5.16).
+0 upgraded, 0 newly installed, 0 to remove and 6 not upgraded.
+travis_time:end:09a3069e:start=1649737076923681119,finish=1649737077744565746,duration=820884627,event=before_install
+[0Ktravis_fold:end:before_install.3
+[0Ktravis_fold:start:before_install.4
+[0Ktravis_time:start:096717ed
+[0K$ sudo apt-get install p7zip-full
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+Suggested packages:
+  p7zip-rar
+The following NEW packages will be installed:
+  p7zip-full
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 908 kB of archives.
+After this operation, 3,878 kB of additional disk space will be used.
+
+0% [Working]
+            
+Get:1 http://archive.ubuntu.com/ubuntu xenial-updates/universe amd64 p7zip-full amd64 9.20.1~dfsg.1-4.2ubuntu0.1 [908 kB]
+
+1% [1 p7zip-full 12.6 kB/908 kB 1%]
+29% [1 p7zip-full 331 kB/908 kB 36%]
+                                    
+100% [Working]
+              
+Fetched 908 kB in 0s (1,064 kB/s)
+Selecting previously unselected package p7zip-full.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 118422 files and directories currently installed.)
+Preparing to unpack .../p7zip-full_9.20.1~dfsg.1-4.2ubuntu0.1_amd64.deb ...
+Unpacking p7zip-full (9.20.1~dfsg.1-4.2ubuntu0.1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up p7zip-full (9.20.1~dfsg.1-4.2ubuntu0.1) ...
+travis_time:end:096717ed:start=1649737077748418858,finish=1649737081997590363,duration=4249171505,event=before_install
+[0Ktravis_fold:end:before_install.4
+[0Ktravis_fold:start:before_install.5
+[0Ktravis_time:start:0503d6e4
+[0K$ sudo apt-get install ghostscript
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following additional packages will be installed:
+  gsfonts libcupsfilters1 libcupsimage2 libgs9 libgs9-common libijs-0.35
+  libjbig2dec0 libpaper1 poppler-data
+Suggested packages:
+  ghostscript-x hpijs fonts-droid texlive-lang-cjk poppler-utils
+  fonts-japanese-mincho | fonts-ipafont-mincho fonts-japanese-gothic
+  | fonts-ipafont-gothic fonts-arphic-ukai fonts-arphic-uming fonts-nanum
+Recommended packages:
+  libpaper-utils
+The following NEW packages will be installed:
+  ghostscript gsfonts libcupsfilters1 libcupsimage2 libgs9 libgs9-common
+  libijs-0.35 libjbig2dec0 libpaper1 poppler-data
+0 upgraded, 10 newly installed, 0 to remove and 6 not upgraded.
+Need to get 12.5 MB of archives.
+After this operation, 42.6 MB of additional disk space will be used.
+
+0% [Working]
+            
+Get:1 http://archive.ubuntu.com/ubuntu xenial/main amd64 poppler-data all 0.4.7-7 [1,495 kB]
+
+0% [1 poppler-data 12.6 kB/1,495 kB 1%]
+2% [1 poppler-data 347 kB/1,495 kB 23%]
+                                       
+12% [Working]
+             
+Get:2 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libcupsfilters1 amd64 1.8.3-2ubuntu3.5 [80.5 kB]
+
+12% [2 libcupsfilters1 11.4 kB/80.5 kB 14%]
+                                           
+14% [Working]
+             
+Get:3 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libcupsimage2 amd64 2.1.3-4ubuntu0.11 [16.1 kB]
+
+14% [3 libcupsimage2 1,367 B/16.1 kB 8%]
+                                        
+16% [Working]
+             
+Get:4 http://archive.ubuntu.com/ubuntu xenial/main amd64 libijs-0.35 amd64 0.35-12 [15.5 kB]
+
+16% [4 libijs-0.35 0 B/15.5 kB 0%]
+                                  
+18% [Working]
+             
+Get:5 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libjbig2dec0 amd64 0.12+20150918-1ubuntu0.1 [55.3 kB]
+
+18% [5 libjbig2dec0 10.4 kB/55.3 kB 19%]
+                                        
+21% [Waiting for headers]
+                         
+Get:6 http://archive.ubuntu.com/ubuntu xenial/main amd64 libpaper1 amd64 1.1.24+nmu4ubuntu1 [13.7 kB]
+
+21% [6 libpaper1 13.7 kB/13.7 kB 100%]
+                                      
+23% [Working]
+             
+Get:7 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgs9-common all 9.26~dfsg+0-0ubuntu0.16.04.14 [5,097 kB]
+
+23% [7 libgs9-common 0 B/5,097 kB 0%]
+                                     
+57% [Waiting for headers]
+                         
+Get:8 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgs9 amd64 9.26~dfsg+0-0ubuntu0.16.04.14 [2,278 kB]
+
+58% [8 libgs9 40.2 kB/2,278 kB 2%]
+                                  
+74% [Waiting for headers]
+                         
+Get:9 http://archive.ubuntu.com/ubuntu xenial/main amd64 gsfonts all 1:8.11+urwcyr1.0.7~pre44-4.2ubuntu1 [3,374 kB]
+
+74% [9 gsfonts 55.7 kB/3,374 kB 2%]
+                                   
+98% [Waiting for headers]
+                         
+Get:10 http://archive.ubuntu.com/ubuntu xenial-updates/main amd64 ghostscript amd64 9.26~dfsg+0-0ubuntu0.16.04.14 [47.3 kB]
+
+98% [10 ghostscript 23.7 kB/47.3 kB 50%]
+                                        
+100% [Working]
+              
+Fetched 12.5 MB in 1s (8,631 kB/s)
+Preconfiguring packages ...
+Selecting previously unselected package poppler-data.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 118486 files and directories currently installed.)
+Preparing to unpack .../poppler-data_0.4.7-7_all.deb ...
+Unpacking poppler-data (0.4.7-7) ...
+Selecting previously unselected package libcupsfilters1:amd64.
+Preparing to unpack .../libcupsfilters1_1.8.3-2ubuntu3.5_amd64.deb ...
+Unpacking libcupsfilters1:amd64 (1.8.3-2ubuntu3.5) ...
+Selecting previously unselected package libcupsimage2:amd64.
+Preparing to unpack .../libcupsimage2_2.1.3-4ubuntu0.11_amd64.deb ...
+Unpacking libcupsimage2:amd64 (2.1.3-4ubuntu0.11) ...
+Selecting previously unselected package libijs-0.35:amd64.
+Preparing to unpack .../libijs-0.35_0.35-12_amd64.deb ...
+Unpacking libijs-0.35:amd64 (0.35-12) ...
+Selecting previously unselected package libjbig2dec0.
+Preparing to unpack .../libjbig2dec0_0.12+20150918-1ubuntu0.1_amd64.deb ...
+Unpacking libjbig2dec0 (0.12+20150918-1ubuntu0.1) ...
+Selecting previously unselected package libpaper1:amd64.
+Preparing to unpack .../libpaper1_1.1.24+nmu4ubuntu1_amd64.deb ...
+Unpacking libpaper1:amd64 (1.1.24+nmu4ubuntu1) ...
+Selecting previously unselected package libgs9-common.
+Preparing to unpack .../libgs9-common_9.26~dfsg+0-0ubuntu0.16.04.14_all.deb ...
+Unpacking libgs9-common (9.26~dfsg+0-0ubuntu0.16.04.14) ...
+Selecting previously unselected package libgs9:amd64.
+Preparing to unpack .../libgs9_9.26~dfsg+0-0ubuntu0.16.04.14_amd64.deb ...
+Unpacking libgs9:amd64 (9.26~dfsg+0-0ubuntu0.16.04.14) ...
+Selecting previously unselected package gsfonts.
+Preparing to unpack .../gsfonts_1%3a8.11+urwcyr1.0.7~pre44-4.2ubuntu1_all.deb ...
+Unpacking gsfonts (1:8.11+urwcyr1.0.7~pre44-4.2ubuntu1) ...
+Selecting previously unselected package ghostscript.
+Preparing to unpack .../ghostscript_9.26~dfsg+0-0ubuntu0.16.04.14_amd64.deb ...
+Unpacking ghostscript (9.26~dfsg+0-0ubuntu0.16.04.14) ...
+Processing triggers for fontconfig (2.11.94-0ubuntu1.1) ...
+Processing triggers for libc-bin (2.23-0ubuntu11.3) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up poppler-data (0.4.7-7) ...
+Setting up libcupsfilters1:amd64 (1.8.3-2ubuntu3.5) ...
+Setting up libcupsimage2:amd64 (2.1.3-4ubuntu0.11) ...
+Setting up libijs-0.35:amd64 (0.35-12) ...
+Setting up libjbig2dec0 (0.12+20150918-1ubuntu0.1) ...
+Setting up libpaper1:amd64 (1.1.24+nmu4ubuntu1) ...
+
+Creating config file /etc/papersize with new version
+Setting up libgs9-common (9.26~dfsg+0-0ubuntu0.16.04.14) ...
+update-alternatives: using /usr/share/ghostscript/9.26 to provide /usr/share/ghostscript/current (ghostscript-current) in auto mode
+Setting up libgs9:amd64 (9.26~dfsg+0-0ubuntu0.16.04.14) ...
+Setting up gsfonts (1:8.11+urwcyr1.0.7~pre44-4.2ubuntu1) ...
+Setting up ghostscript (9.26~dfsg+0-0ubuntu0.16.04.14) ...
+Processing triggers for libc-bin (2.23-0ubuntu11.3) ...
+travis_time:end:0503d6e4:start=1649737082001481766,finish=1649737089046436457,duration=7044954691,event=before_install
+[0Ktravis_fold:end:before_install.5
+[0Ktravis_time:start:0325ec69
+[0K$ cd test_shell/
+travis_time:end:0325ec69:start=1649737089050365176,finish=1649737089052850135,duration=2484959,event=script
+[0K[32;1mThe command "cd test_shell/" exited with 0.[0m
+travis_time:start:0972954d
+[0K$ wget "https://c4pr1c3.github.io/LinuxSysAdmin/exp/chap0x04/worldcupplayerinfo.tsv"
+--2022-04-12 04:18:09--  https://c4pr1c3.github.io/LinuxSysAdmin/exp/chap0x04/worldcupplayerinfo.tsv
+Resolving c4pr1c3.github.io (c4pr1c3.github.io)... 185.199.110.153, 185.199.109.153, 185.199.108.153, ...
+Connecting to c4pr1c3.github.io (c4pr1c3.github.io)|185.199.110.153|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 46955 (46K) [text/tab-separated-values]
+Saving to: â€˜worldcupplayerinfo.tsvâ€™
+
+
+worldcupplayerinfo.   0%[                    ]       0  --.-KB/s               
+worldcupplayerinfo. 100%[===================>]  45.85K  --.-KB/s    in 0.01s   
+
+2022-04-12 04:18:09 (4.53 MB/s) - â€˜worldcupplayerinfo.tsvâ€™ saved [46955/46955]
+
+travis_time:end:0972954d:start=1649737089056908361,finish=1649737089141881189,duration=84972828,event=script
+[0K[32;1mThe command "wget "https://c4pr1c3.github.io/LinuxSysAdmin/exp/chap0x04/worldcupplayerinfo.tsv"" exited with 0.[0m
+travis_time:start:0d24898c
+[0K$ wget "https://c4pr1c3.github.io/LinuxSysAdmin/exp/chap0x04/web_log.tsv.7z"
+--2022-04-12 04:18:09--  https://c4pr1c3.github.io/LinuxSysAdmin/exp/chap0x04/web_log.tsv.7z
+Resolving c4pr1c3.github.io (c4pr1c3.github.io)... 185.199.110.153, 185.199.109.153, 185.199.108.153, ...
+Connecting to c4pr1c3.github.io (c4pr1c3.github.io)|185.199.110.153|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 11760144 (11M) [application/x-7z-compressed]
+Saving to: â€˜web_log.tsv.7zâ€™
+
+
+web_log.tsv.7z        0%[                    ]       0  --.-KB/s               
+web_log.tsv.7z      100%[===================>]  11.21M  --.-KB/s    in 0.1s    
+
+2022-04-12 04:18:09 (113 MB/s) - â€˜web_log.tsv.7zâ€™ saved [11760144/11760144]
+
+travis_time:end:0d24898c:start=1649737089145822905,finish=1649737089314362721,duration=168539816,event=script
+[0K[32;1mThe command "wget "https://c4pr1c3.github.io/LinuxSysAdmin/exp/chap0x04/web_log.tsv.7z"" exited with 0.[0m
+travis_time:start:20a243e8
+[0K$ 7z x web_log.tsv.7z -r -o./
+
+7-Zip [64] 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18
+p7zip Version 9.20 (locale=en_US.UTF-8,Utf16=on,HugeFiles=on,2 CPUs)
+
+Processing archive: web_log.tsv.7z
+
+Extracting  web_log.tsv
+
+Everything is Ok
+
+Size:       120704766
+Compressed: 11760144
+travis_time:end:20a243e8:start=1649737089318424203,finish=1649737090412746033,duration=1094321830,event=script
+[0K[32;1mThe command "7z x web_log.tsv.7z -r -o./" exited with 0.[0m
+travis_time:start:1cffe928
+[0K$ ls -l
+total 129972
+-rw-rw-r-- 1 travis travis      4759 Apr 12 04:17 h4-1.sh
+-rw-rw-r-- 1 travis travis      3645 Apr 12 04:17 h4-2.sh
+-rw-rw-r-- 1 travis travis      3773 Apr 12 04:17 h4-3.sh
+-rw-rw-r-- 1 travis travis     66169 Apr 12 04:17 test1.jpg
+-rw-rw-r-- 1 travis travis     16680 Apr 12 04:17 test2.png
+-rw-rw-r-- 1 travis travis    367074 Apr 12 04:17 test3.JPG
+-rw-rw-r-- 1 travis travis     36715 Apr 12 04:17 test4.svg
+-rw-rw-r-- 1 travis travis     58325 Apr 12 04:17 test5.jpeg
+-rw-r--r-- 1 travis travis 120704766 Feb  4  2017 web_log.tsv
+-rw-rw-r-- 1 travis travis  11760144 Mar  7 02:16 web_log.tsv.7z
+-rw-rw-r-- 1 travis travis     46955 Mar  7 02:16 worldcupplayerinfo.tsv
+travis_time:end:1cffe928:start=1649737090416590171,finish=1649737090421495715,duration=4905544,event=script
+[0K[32;1mThe command "ls -l" exited with 0.[0m
+travis_time:start:0bcbb6e0
+[0K$ pwd
+/home/travis/build/CUCCS/2022-linux-public-MengQiurong/test_shell
+travis_time:end:0bcbb6e0:start=1649737090425062890,finish=1649737090427537252,duration=2474362,event=script
+[0K[32;1mThe command "pwd" exited with 0.[0m
+travis_time:start:03a29bc4
+[0K$ echo "=============================="
+==============================
+travis_time:end:03a29bc4:start=1649737090430989532,finish=1649737090433646353,duration=2656821,event=script
+[0K[32;1mThe command "echo "=============================="" exited with 0.[0m
+travis_time:start:3746b239
+[0K$ bash h4-1.sh
+========å›¾ç‰‡å¤„ç†è„šæœ¬çš„å¸®åŠ©æ–‡æ¡£========
+
+    è„šæœ¬æ”¯æŒï¼š
+    1.å‘½ä»¤è¡Œå‚æ•°æ–¹å¼ä½¿ç”¨ä¸åŒåŠŸèƒ½
+    2.å¯¹æŒ‡å®šç›®å½•ä¸‹æ‰€æœ‰æ”¯æŒæ ¼å¼çš„å›¾ç‰‡æ–‡ä»¶è¿›è¡Œæ‰¹å¤„ç†æŒ‡å®šç›®å½•è¿›è¡Œæ‰¹å¤„ç†
+    3.ä»¥ä¸‹å¸¸è§å›¾ç‰‡æ‰¹å¤„ç†åŠŸèƒ½çš„å•ç‹¬ä½¿ç”¨æˆ–ç»„åˆä½¿ç”¨
+        â‘ å¯¹jpegæ ¼å¼å›¾ç‰‡è¿›è¡Œå›¾ç‰‡è´¨é‡åŽ‹ç¼©
+        â‘¡å¯¹jpeg/png/svgæ ¼å¼å›¾ç‰‡åœ¨ä¿æŒåŽŸå§‹å®½é«˜æ¯”çš„å‰æä¸‹åŽ‹ç¼©åˆ†è¾¨çŽ‡
+        â‘¢å¯¹å›¾ç‰‡æ‰¹é‡æ·»åŠ è‡ªå®šä¹‰æ–‡æœ¬æ°´å°
+        â‘£æ‰¹é‡é‡å‘½åï¼ˆç»Ÿä¸€æ·»åŠ æ–‡ä»¶åå‰ç¼€æˆ–åŽç¼€ï¼Œä¸å½±å“åŽŸå§‹æ–‡ä»¶æ‰©å±•åï¼‰
+        â‘¥å°†png/svgå›¾ç‰‡ç»Ÿä¸€è½¬æ¢ä¸ºjpgæ ¼å¼ï¼›
+    -q Q               å¯¹jpegæ ¼å¼å›¾ç‰‡è¿›è¡Œå›¾ç‰‡è´¨é‡å› å­ä¸ºQçš„åŽ‹ç¼©
+    -d D               å¯¹jpeg/png/svgæ ¼å¼å›¾ç‰‡åœ¨ä¿æŒåŽŸå§‹å®½é«˜æ¯”çš„å‰æä¸‹åŽ‹ç¼©æˆDåˆ†è¾¨çŽ‡
+    -w fontsize watermark_text  å¯¹å›¾ç‰‡æ‰¹é‡æ·»åŠ è‡ªå®šä¹‰æ–‡æœ¬æ°´å°
+    -p text            æ‰¹é‡é‡å‘½åï¼Œç»Ÿä¸€æ·»åŠ æ–‡ä»¶åå‰ç¼€ï¼Œä¸å½±å“åŽŸå§‹æ–‡ä»¶æ‰©å±•å
+    -s text            æ‰¹é‡é‡å‘½åï¼Œç»Ÿä¸€æ·»åŠ æ–‡ä»¶ååŽç¼€ï¼Œä¸å½±å“åŽŸå§‹æ–‡ä»¶æ‰©å±•å
+    -t                 å°†png/svgå›¾ç‰‡ç»Ÿä¸€è½¬æ¢ä¸ºjpgæ ¼å¼å›¾ç‰‡
+    -h                 æ˜¾ç¤ºæœ¬è„šæœ¬çš„å¸®åŠ©æ–‡æ¡£
+travis_time:end:3746b239:start=1649737090438628022,finish=1649737090444328237,duration=5700215,event=script
+[0K[32;1mThe command "bash h4-1.sh" exited with 0.[0m
+travis_time:start:16983f30
+[0K$ bash h4-1.sh -h
+========å›¾ç‰‡å¤„ç†è„šæœ¬çš„å¸®åŠ©æ–‡æ¡£========
+
+    è„šï¿½ï¿½ï¿½æ”¯æŒï¼š
+    1.å‘½ä»¤è¡Œå‚æ•°æ–¹å¼ä½¿ç”¨ä¸åŒåŠŸèƒ½
+    2.å¯¹æŒ‡å®šç›®å½•ä¸‹æ‰€æœ‰æ”¯æŒæ ¼å¼çš„å›¾ç‰‡æ–‡ä»¶è¿›è¡Œæ‰¹å¤„ç†æŒ‡å®šç›®å½•è¿›è¡Œæ‰¹å¤„ç†
+    3.ä»¥ä¸‹å¸¸è§å›¾ç‰‡æ‰¹å¤„ç†åŠŸèƒ½çš„å•ç‹¬ä½¿ç”¨æˆ–ç»„åˆä½¿ç”¨
+        â‘ å¯¹jpegæ ¼å¼å›¾ç‰‡è¿›è¡Œå›¾ç‰‡è´¨é‡åŽ‹ç¼©
+        â‘¡å¯¹jpeg/png/svgæ ¼å¼å›¾ç‰‡åœ¨ä¿æŒåŽŸå§‹å®½é«˜æ¯”çš„å‰æä¸‹åŽ‹ç¼©åˆ†è¾¨çŽ‡
+        â‘¢å¯¹å›¾ç‰‡æ‰¹é‡æ·»åŠ è‡ªå®šä¹‰æ–‡æœ¬æ°´å°
+        â‘£æ‰¹é‡é‡å‘½åï¼ˆç»Ÿä¸€æ·»åŠ æ–‡ä»¶åå‰ç¼€æˆ–åŽç¼€ï¼Œä¸å½±å“åŽŸå§‹æ–‡ä»¶æ‰©å±•åï¼‰
+        â‘¥å°†png/svgå›¾ç‰‡ç»Ÿä¸€è½¬æ¢ä¸ºjpgæ ¼å¼ï¼›
+    -q Q               å¯¹jpegæ ¼å¼å›¾ç‰‡è¿›è¡Œå›¾ç‰‡è´¨é‡å› å­ä¸ºQçš„åŽ‹ç¼©
+    -d D               å¯¹jpeg/png/svgæ ¼å¼å›¾ç‰‡åœ¨ä¿æŒåŽŸå§‹å®½é«˜æ¯”çš„å‰æä¸‹åŽ‹ç¼©æˆDåˆ†è¾¨çŽ‡
+    -w fontsize watermark_text  å¯¹å›¾ç‰‡æ‰¹é‡æ·»åŠ è‡ªå®šä¹‰æ–‡æœ¬æ°´å°
+    -p text            æ‰¹é‡é‡å‘½åï¼Œç»Ÿä¸€æ·»åŠ æ–‡ä»¶åå‰ç¼€ï¼Œä¸å½±å“åŽŸå§‹æ–‡ä»¶æ‰©å±•å
+    -s text            æ‰¹é‡é‡å‘½åï¼Œç»Ÿä¸€æ·»åŠ æ–‡ä»¶ååŽç¼€ï¼Œä¸å½±å“åŽŸå§‹æ–‡ä»¶æ‰©å±•å
+    -t                 å°†png/svgå›¾ç‰‡ç»Ÿä¸€è½¬æ¢ä¸ºjpgæ ¼å¼å›¾ç‰‡
+    -h                 æ˜¾ç¤ºæœ¬è„šæœ¬çš„å¸®åŠ©æ–‡æ¡£
+travis_time:end:16983f30:start=1649737090449447840,finish=1649737090455802508,duration=6354668,event=script
+[0K[32;1mThe command "bash h4-1.sh -h" exited with 0.[0m
+travis_time:start:0cd77004
+[0K$ bash h4-1.sh -q 50
+Compressing test5.jpeg -- down.
+========å›¾ç‰‡è´¨é‡åŽ‹ç¼©å®Œæˆ========
+travis_time:end:0cd77004:start=1649737090460500006,finish=1649737090564926637,duration=104426631,event=script
+[0K[32;1mThe command "bash h4-1.sh -q 50" exited with 0.[0m
+travis_time:start:0753a260
+[0K$ bash h4-1.sh -d 90
+Proportional compressing test1.jpg is complete.
+Proportional compressing test2.png is complete.
+Proportional compressing test4.svg is complete.
+Proportional compressing test5.jpeg is complete.
+=========åˆ†è¾¨çŽ‡åŽ‹ç¼©å®Œæˆ=========
+travis_time:end:0753a260:start=1649737090570711762,finish=1649737090802510602,duration=231798840,event=script
+[0K[32;1mThe command "bash h4-1.sh -d 90" exited with 0.[0m
+travis_time:start:231fccf0
+[0K$ bash h4-1.sh -w 5 qr
+Watermarking test1.jpg with qr is complete.
+Watermarking test2.png with qr is complete.
+Watermarking test4.svg with qr is complete.
+Watermarking test5.jpeg with qr is complete.
+==========æ·»åŠ æ°´å°å®Œæˆ==========
+travis_time:end:231fccf0:start=1649737090806988608,finish=1649737090906136761,duration=99148153,event=script
+[0K[32;1mThe command "bash h4-1.sh -w 5 qr" exited with 0.[0m
+travis_time:start:078e64b7
+[0K$ bash h4-1.sh -p QR
+test1.jpg is prefixed as QRtest1.jpg 
+test2.png is prefixed as QRtest2.png 
+test4.svg is prefixed as QRtest4.svg 
+test5.jpeg is prefixed as QRtest5.jpeg 
+=========æ‰¹é‡é‡å‘½ååŠ å‰ç¼€å®Œæˆ==========
+travis_time:end:078e64b7:start=1649737090911376733,finish=1649737090923416407,duration=12039674,event=script
+[0K[32;1mThe command "bash h4-1.sh -p QR" exited with 0.[0m
+travis_time:start:1e482538
+[0K$ bash h4-1.sh -s CUC
+QRtest1.jpg is suffixed as QRtest1CUC.jpg 
+QRtest2.png is suffixed as QRtest2CUC.png 
+QRtest4.svg is suffixed as QRtest4CUC.svg 
+QRtest5.jpeg is suffixed as QRtest5CUC.jpeg 
+=========æ‰¹é‡é‡å‘½ååŠ åŽç¼€å®Œæˆ==========
+travis_time:end:1e482538:start=1649737090927492014,finish=1649737090937755481,duration=10263467,event=script
+[0K[32;1mThe command "bash h4-1.sh -s CUC" exited with 0.[0m
+travis_time:start:1ee68c00
+[0K$ bash h4-1.sh -t
+Transform QRtest2CUC.png to QRtest2CUC.jpgis complete.
+Transform QRtest4CUC.svg to QRtest4CUC.jpgis complete.
+==========è½¬æ¢æ ¼å¼å®Œæˆ==========
+travis_time:end:1ee68c00:start=1649737090942002953,finish=1649737090979535483,duration=37532530,event=script
+[0K[32;1mThe command "bash h4-1.sh -t" exited with 0.[0m
+travis_time:start:0f7e6604
+[0K$ echo "=============================="
+==============================
+travis_time:end:0f7e6604:start=1649737090983770300,finish=1649737090986719987,duration=2949687,event=script
+[0K[32;1mThe command "echo "=============================="" exited with 0.[0m
+travis_time:start:17c176b6
+[0K$ bash h4-2.sh -h
+-c                 ç»Ÿè®¡ä¸åŒå¹´é¾„åŒºé—´èŒƒå›´ï¼ˆ20å²ä»¥ä¸‹ã€[20-30]ã€30å²ä»¥ä¸Šï¼‰çš„çƒå‘˜æ•°é‡ã€ç™¾åˆ†æ¯”
+-n                 ç»Ÿè®¡ä¸åŒåœºä¸Šä½ç½®çš„çƒå‘˜æ•°é‡ã€ç™¾åˆ†æ¯”
+-l                 åå­—æœ€é•¿çš„çƒå‘˜æ˜¯è°ï¼Ÿåå­—æœ€çŸ­çš„çƒå‘˜æ˜¯è°ï¼Ÿ
+-a                 å¹´é¾„æœ€å¤§çš„çƒå‘˜æ˜¯è°ï¼Ÿå¹´é¾„æœ€å°çš„çƒå‘˜æ˜¯è°ï¼Ÿ
+-h                 æ˜¾ç¤ºæœ¬è„šæœ¬çš„å¸®åŠ©æ–‡æ¡£
+travis_time:end:17c176b6:start=1649737090990621691,finish=1649737090996473029,duration=5851338,event=script
+[0K[32;1mThe command "bash h4-2.sh -h" exited with 0.[0m
+travis_time:start:150ad90c
+[0K$ bash h4-2.sh -c
+Age	Count	Percentage
+<20	9	1.222826%
+[20,30]	600	81.521739%
+>30	127	17.255435%
+travis_time:end:150ad90c:start=1649737091000699131,finish=1649737091010144630,duration=9445499,event=script
+[0K[32;1mThe command "bash h4-2.sh -c" exited with 0.[0m
+travis_time:start:28636332
+[0K$ bash h4-2.sh -n
+    Position	Count	Percentage
+amount of DÃ©fenseur          1		proportion: 0.001
+amount of Midfielder       268		proportion: 0.364
+amount of Defender         236		proportion: 0.321
+amount of Forward          135		proportion: 0.183
+amount of Goalie            96		proportion: 0.130
+travis_time:end:28636332:start=1649737091015083872,finish=1649737091022192470,duration=7108598,event=script
+[0K[32;1mThe command "bash h4-2.sh -n" exited with 0.[0m
+travis_time:start:149955c6
+[0K$ bash h4-2.sh -l
+The longest name is Lazaros Christodoulopoulos.
+The longest name is Francisco Javier Rodriguez.
+The longest name is Liassine Cadamuro-Bentaeba.
+The shortest name is JÃ´.
+travis_time:end:149955c6:start=1649737091026634403,finish=1649737091035065889,duration=8431486,event=script
+[0K[32;1mThe command "bash h4-2.sh -l" exited with 0.[0m
+travis_time:start:0bb7fd46
+[0K$ bash h4-2.sh -a
+The oldest age is 42, his name is	.Faryd Mondragon
+The youngest age is 18, his name is	.Luke Shaw
+Fabrice Olinga
+travis_time:end:0bb7fd46:start=1649737091038747312,finish=1649737091047118369,duration=8371057,event=script
+[0K[32;1mThe command "bash h4-2.sh -a" exited with 0.[0m
+travis_time:start:056ccdca
+[0K$ echo "=============================="
+==============================
+travis_time:end:056ccdca:start=1649737091050924391,finish=1649737091053466496,duration=2542105,event=script
+[0K[32;1mThe command "echo "=============================="" exited with 0.[0m
+travis_time:start:04dce98f
+[0K$ bash h4-3.sh -h
+-c      ç»Ÿè®¡è®¿é—®æ¥æºä¸»æœºTOP 100å’Œåˆ†åˆ«å¯¹åº”å‡ºçŽ°çš„æ€»æ¬¡æ•°
+-i      ç»Ÿè®¡è®¿é—®æ¥æºä¸»æœºTOP 100 IPå’Œåˆ†åˆ«å¯¹åº”å‡ºçŽ°çš„æ€»æ¬¡æ•°
+-u      ç»Ÿè®¡æœ€é¢‘ç¹è¢«è®¿é—®çš„URL TOP 100
+-s      ç»Ÿè®¡ä¸åŒå“åº”çŠ¶æ€ç çš„å‡ºçŽ°æ¬¡æ•°å’Œå¯¹åº”ç™¾åˆ†æ¯”
+-f      åˆ†åˆ«ç»Ÿè®¡ä¸åŒ4XXçŠ¶æ€ç å¯¹åº”çš„TOP 10 URLå’Œå¯¹åº”ï¿½ï¿½ï¿½çŽ°çš„æ€»æ¬¡æ•°
+-g URL  ç»™å®šURLè¾“å‡ºTOP 100è®¿é—®æ¥æºä¸»æœº
+-h      æ˜¾ç¤ºæœ¬è„šæœ¬çš„å¸®åŠ©æ–‡æ¡£
+travis_time:end:04dce98f:start=1649737091058586007,finish=1649737091064213405,duration=5627398,event=script
+[0K[32;1mThe command "bash h4-3.sh -h" exited with 0.[0m
+travis_time:start:0321838e
+[0K$ bash h4-3.sh -c
+                                hostname	count
+                      edams.ksc.nasa.gov	6530
+                    piweba4y.prodigy.com	4846
+                            163.206.89.4	4791
+                    piweba5y.prodigy.com	4607
+                    piweba3y.prodigy.com	4416
+                    www-d1.proxy.aol.com	3889
+                    www-b2.proxy.aol.com	3534
+                    www-b3.proxy.aol.com	3463
+                    www-c5.proxy.aol.com	3423
+                    www-b5.proxy.aol.com	3411
+                    www-c2.proxy.aol.com	3407
+                    www-d2.proxy.aol.com	3404
+                    www-a2.proxy.aol.com	3337
+                             news.ti.com	3298
+                    www-d3.proxy.aol.com	3296
+                    www-b4.proxy.aol.com	3293
+                    www-c3.proxy.aol.com	3272
+                    www-d4.proxy.aol.com	3234
+                    www-c1.proxy.aol.com	3177
+                    www-c4.proxy.aol.com	3134
+                 intgate.raleigh.ibm.com	3123
+                    www-c6.proxy.aol.com	3088
+                    www-a1.proxy.aol.com	3041
+                  mpngate1.ny.us.ibm.net	3011
+                      e659229.boeing.com	2983
+                    piweba1y.prodigy.com	2957
+                        webgate1.mot.com	2906
+                  www-relay.pa-x.dec.com	2761
+                          beta.xerox.com	2318
+                       poppy.hensa.ac.uk	2311
+                      vagrant.vf.mmc.com	2237
+                      palona1.cns.hp.com	1910
+      www-proxy.crl.research.digital.com	1793
+                          koriel.sun.com	1762
+                                   derec	1681
+                trusty.lmsc.lockheed.com	1637
+                             gw2.att.com	1623
+                cliffy.lfwc.lockheed.com	1563
+                           inet2.tek.com	1503
+                    disarray.demon.co.uk	1485
+                             gw1.att.com	1467
+                            128.217.62.1	1435
+                    interlock.turner.com	1395
+                            163.205.1.19	1360
+                         sgigate.sgi.com	1354
+              bocagate.bocaraton.ibm.com	1336
+                    piweba2y.prodigy.com	1324
+                             gw3.att.com	1311
+                   keyhole.es.dupont.com	1310
+                   n1144637.ksc.nasa.gov	1297
+                           163.205.3.104	1292
+                          163.205.156.16	1256
+                           163.205.19.20	1252
+                     erigate.ericsson.se	1216
+                          gn2.getnet.com	1211
+                        gwa.ericsson.com	1089
+                     tiber.gsfc.nasa.gov	1079
+                            128.217.62.2	1054
+                 bstfirewall.bst.bls.com	1017
+                          163.206.137.21	1015
+                          spider.tbe.com	1013
+                gatekeeper.us.oracle.com	1010
+                    www-c8.proxy.aol.com	995
+           whopkins.sso.az.honeywell.com	984
+                      news.dfrc.nasa.gov	966
+                         128.159.122.110	949
+                 proxy0.research.att.com	940
+                    proxy.austin.ibm.com	925
+                    www-c9.proxy.aol.com	902
+                     bbuig150.unisys.com	901
+                         corpgate.nt.com	899
+                      sahp315.sandia.gov	890
+                          amdext.amd.com	869
+                          128.159.132.56	848
+                   n1121796.ksc.nasa.gov	830
+                        igate.uswest.com	825
+             gatekeeper.cca.rockwell.com	819
+                    wwwproxy.sanders.com	815
+                             gw4.att.com	814
+                            goose.sms.fi	812
+                          128.159.144.83	808
+                  jericho3.microsoft.com	805
+                         128.159.111.141	798
+                  jericho2.microsoft.com	786
+          sdn_b6_f02_ip.dny.rockwell.com	782
+                     lamar.d48.lilly.com	778
+                           163.205.11.31	776
+                   heimdallp2.compaq.com	772
+                    stortek1.stortek.com	771
+                           163.205.16.75	762
+                    mac998.kip.apple.com	759
+                         tia1.eskimo.com	742
+                         www-e1f.gnn.com	733
+                    www-b1.proxy.aol.com	718
+                  reddragon.ksc.nasa.gov	715
+                         128.159.122.137	711
+                            rmcg.cts.com	701
+                       bambi.te.rl.ac.uk	701
+                        electron.mcc.com	697
+                           163.205.23.76	691
+travis_time:end:0321838e:start=1649737091068300058,finish=1649737092752340073,duration=1684040015,event=script
+[0K[32;1mThe command "bash h4-3.sh -c" exited with 0.[0m
+travis_time:start:037c2744
+[0K$ bash h4-3.sh -i
+                  IP	count
+        163.206.89.4	4791
+        128.217.62.1	1435
+        163.205.1.19	1360
+       163.205.3.104	1292
+      163.205.156.16	1256
+       163.205.19.20	1252
+        128.217.62.2	1054
+      163.206.137.21	1015
+     128.159.122.110	949
+      128.159.132.56	848
+      128.159.144.83	808
+     128.159.111.141	798
+       163.205.11.31	776
+       163.205.16.75	762
+     128.159.122.137	711
+       163.205.23.76	691
+         206.27.25.1	672
+        198.83.19.44	647
+        199.1.50.225	641
+       163.205.23.93	624
+     139.169.174.102	610
+       163.205.121.3	600
+      140.229.116.37	598
+      141.102.82.127	591
+       163.206.140.4	586
+      163.206.104.34	573
+       204.62.245.32	567
+      128.159.122.38	565
+      128.217.62.224	563
+     128.159.122.107	563
+     128.159.122.180	553
+      128.159.123.58	549
+      163.205.154.11	544
+      192.112.22.119	532
+      163.205.16.100	518
+     199.201.186.103	503
+      128.159.146.40	503
+     128.159.122.160	494
+         192.77.40.4	486
+     193.143.192.106	482
+       152.163.192.5	480
+       163.205.23.71	478
+       139.169.30.50	475
+     128.159.122.144	469
+      163.234.140.22	466
+      163.205.150.22	463
+      128.217.61.184	457
+       163.205.23.72	451
+        198.83.19.40	448
+      128.159.122.14	446
+     199.201.186.104	443
+        198.83.19.47	443
+       128.217.61.15	443
+      128.159.121.34	441
+      128.159.121.41	438
+      160.205.119.27	435
+      163.205.154.17	432
+      152.163.192.38	432
+      128.159.122.15	432
+      128.159.135.73	423
+      128.159.135.38	423
+      152.163.192.35	421
+      128.159.76.128	415
+      152.163.192.71	413
+      128.159.63.159	412
+      163.205.12.100	409
+        133.53.64.33	404
+      152.163.192.70	402
+      128.159.121.64	397
+      129.239.68.160	396
+      152.163.192.36	391
+       163.205.16.90	389
+       128.32.196.94	389
+        163.205.1.18	385
+       163.206.136.1	384
+      147.147.191.43	383
+      163.205.16.104	374
+      152.163.192.69	374
+      193.178.53.180	373
+       128.217.63.27	371
+       130.110.74.81	367
+         204.69.0.27	366
+      163.206.130.46	365
+      152.163.192.67	359
+       163.205.54.76	357
+       152.163.192.7	356
+        198.83.19.43	354
+      128.159.137.43	350
+       147.74.110.61	348
+       163.205.23.44	345
+     128.159.168.162	343
+        158.27.59.88	336
+       152.163.192.3	336
+      163.205.166.15	335
+      128.159.145.21	335
+       163.205.2.180	332
+       128.217.61.98	329
+      152.163.192.66	328
+        163.205.3.38	324
+        163.205.2.35	324
+travis_time:end:037c2744:start=1649737092756296436,finish=1649737094608485850,duration=1852189414,event=script
+[0K[32;1mThe command "bash h4-3.sh -i" exited with 0.[0m
+travis_time:start:0395bffb
+[0K$ bash h4-3.sh -u
+                                                    URL	count
+                             /images/NASA-logosmall.gif	97410
+                              /images/KSC-logosmall.gif	75337
+                           /images/MOSAIC-logosmall.gif	67448
+                              /images/USA-logosmall.gif	67068
+                            /images/WORLD-logosmall.gif	66444
+                             /images/ksclogo-medium.gif	62778
+                                              /ksc.html	43687
+                /history/apollo/images/apollo-logo1.gif	37826
+                                /images/launch-logo.gif	35138
+                                                      /	30346
+                               /images/ksclogosmall.gif	27810
+           /shuttle/missions/sts-69/mission-sts-69.html	24606
+                                    /shuttle/countdown/	24461
+                   /shuttle/missions/sts-69/count69.gif	24383
+        /shuttle/missions/sts-69/sts-69-patch-small.gif	23405
+                        /shuttle/missions/missions.html	22453
+                               /images/launchmedium.gif	19877
+                                     /htbin/cdt_main.pl	17247
+               /shuttle/countdown/images/countclock.gif	12160
+                                        /icons/menu.xbm	12137
+                                       /icons/blank.xbm	12057
+                             /software/winvn/winvn.html	10345
+                                       /icons/image.xbm	10308
+                                  /history/history.html	10134
+              /history/apollo/images/footprint-logo.gif	10126
+                /history/apollo/images/apollo-small.gif	9439
+             /history/apollo/images/footprint-small.gif	9230
+                              /software/winvn/winvn.gif	9037
+                            /history/apollo/apollo.html	8985
+                            /software/winvn/wvsmall.gif	8662
+                           /software/winvn/bluemarb.gif	8610
+                                    /htbin/cdt_clock.pl	8583
+                        /shuttle/countdown/liftoff.html	7865
+          /shuttle/resources/orbiters/orbiters-logo.gif	7389
+                         /images/shuttle-patch-logo.gif	7261
+               /history/apollo/apollo-13/apollo-13.html	7177
+                                               /images/	7040
+                /shuttle/countdown/video/livevideo2.gif	7029
+                                /images/kscmap-tiny.gif	6615
+        /shuttle/technology/sts-newsref/stsref-toc.html	6517
+    /history/apollo/apollo-13/apollo-13-patch-small.gif	6309
+        /shuttle/missions/sts-71/sts-71-patch-small.gif	5613
+            /shuttle/missions/sts-69/images/images.html	5264
+                                        /icons/text.xbm	5248
+                                  /images/construct.gif	5093
+                        /images/shuttle-patch-small.gif	4869
+            /shuttle/missions/sts-69/movies/movies.html	4846
+        /shuttle/missions/sts-70/sts-70-patch-small.gif	4791
+                                     /icons/unknown.xbm	4785
+                  /shuttle/missions/sts-69/liftoff.html	4559
+                                 /facilities/lc39a.html	4464
+             /shuttle/resources/orbiters/endeavour.html	4434
+                 /history/apollo/images/apollo-logo.gif	4365
+           /shuttle/missions/sts-70/mission-sts-70.html	4066
+                                 /images/lc39a-logo.gif	4024
+         /shuttle/resources/orbiters/endeavour-logo.gif	3817
+           /shuttle/technology/sts-newsref/sts_asm.html	3706
+                      /shuttle/countdown/countdown.html	3518
+            /shuttle/missions/sts-71/movies/movies.html	3507
+                /shuttle/countdown/video/livevideo.jpeg	3377
+               /history/apollo/apollo-11/apollo-11.html	3140
+           /shuttle/missions/sts-71/mission-sts-71.html	3130
+            /shuttle/missions/sts-70/images/images.html	3087
+            /shuttle/missions/sts-71/images/images.html	2945
+           /shuttle/missions/sts-73/mission-sts-73.html	2939
+                                        /images/faq.gif	2865
+ /shuttle/technology/images/srb_mod_compare_1-small.gif	2864
+ /shuttle/technology/images/srb_mod_compare_3-small.gif	2818
+ /shuttle/technology/images/srb_mod_compare_6-small.gif	2715
+    /history/apollo/apollo-11/apollo-11-patch-small.gif	2701
+                                       /elv/elvpage.htm	2586
+        /shuttle/missions/sts-73/sts-73-patch-small.gif	2544
+      /shuttle/countdown/video/sts-69-prelaunch-pad.gif	2385
+               /shuttle/missions/51-l/mission-51-l.html	2343
+                               /images/launch-small.gif	2293
+                                  /facilities/tour.html	2256
+            /shuttle/missions/51-l/51-l-patch-small.gif	2201
+                               /images/kscmap-small.gif	2172
+            /shuttle/resources/orbiters/challenger.html	2171
+      /shuttle/missions/sts-71/movies/sts-71-launch.mpg	2159
+           /shuttle/technology/sts-newsref/sts-lcc.html	2146
+                                         /htbin/wais.pl	2133
+                                  /facts/about_ksc.html	2120
+                          /history/mercury/mercury.html	2107
+                               /images/mercury-logo.gif	2040
+                                      /elv/elvhead3.gif	1991
+                          /images/launchpalms-small.gif	1979
+                                   /images/whatsnew.gif	1936
+                  /history/apollo/apollo-spacecraft.txt	1929
+                                   /facilities/vab.html	1915
+              /shuttle/resources/orbiters/columbia.html	1912
+                         /shuttle/countdown/lps/fr.html	1908
+        /shuttle/resources/orbiters/challenger-logo.gif	1904
+                                    /images/ksclogo.gif	1892
+                                        /whats-new.html	1891
+                                       /elv/endball.gif	1874
+          /history/apollo/apollo-13/apollo-13-info.html	1869
+           /shuttle/missions/sts-74/mission-sts-74.html	1868
+                               /elv/PEGASUS/minpeg1.gif	1845
+                                   /elv/SCOUT/scout.gif	1835
+travis_time:end:0395bffb:start=1649737094612283279,finish=1649737097298622920,duration=2686339641,event=script
+[0K[32;1mThe command "bash h4-3.sh -u" exited with 0.[0m
+travis_time:start:0ec87a40
+[0K$ bash h4-3.sh -s
+code	count	percentage
+200	1398987	89.113923%
+302	26497	1.687830%
+304	134146	8.544952%
+403	171	0.010893%
+404	10055	0.640492%
+500	3	0.000191%
+501	27	0.001720%
+travis_time:end:0ec87a40:start=1649737097303044060,finish=1649737099746440220,duration=2443396160,event=script
+[0K[32;1mThe command "bash h4-3.sh -s" exited with 0.[0m
+travis_time:start:15ea2b20
+[0K$ bash h4-3.sh -f
+                                           code=403 URL	count
+                 /software/winvn/winvn.html/wvsmall.gif	32
+                   /software/winvn/winvn.html/winvn.gif	32
+                /software/winvn/winvn.html/bluemarb.gif	32
+                    /ksc.html/images/ksclogo-medium.gif	12
+                   /ksc.html/images/WORLD-logosmall.gif	10
+                     /ksc.html/images/USA-logosmall.gif	10
+                    /ksc.html/images/NASA-logosmall.gif	10
+                  /ksc.html/images/MOSAIC-logosmall.gif	10
+                         /ksc.html/facts/about_ksc.html	5
+               /ksc.html/shuttle/missions/missions.html	4
+                                           code=404 URL	count
+                                  /pub/winvn/readme.txt	1337
+                                 /pub/winvn/release.txt	1185
+           /shuttle/missions/STS-69/mission-STS-69.html	683
+                                  /images/nasa-logo.gif	319
+               /shuttle/missions/sts-68/ksc-upclose.gif	253
+                                  /elv/DELTA/uncons.htm	209
+              /history/apollo/sa-1/sa-1-patch-small.gif	200
+                            /://spacelink.msfc.nasa.gov	166
+                            /images/crawlerway-logo.gif	160
+            /history/apollo/a-001/a-001-patch-small.gif	154
+travis_time:end:15ea2b20:start=1649737099750680580,finish=1649737104718732851,duration=4968052271,event=script
+[0K[32;1mThe command "bash h4-3.sh -f" exited with 0.[0m
+travis_time:start:0b6ed7d1
+[0K$ bash h4-3.sh -g /shuttle/missions/sts-74/mission-sts-74.html
+                          given_hostname	count
+                            194.90.19.68	30
+                             news.ti.com	17
+                           158.26.35.139	12
+                    www-c3.proxy.aol.com	8
+                     seas.marine.usf.edu	8
+                    scott.healthspan.edu	8
+                   atc.eag.unisysgsg.com	8
+                            163.206.89.4	8
+                    www-a2.proxy.aol.com	7
+                        webgate1.mot.com	7
+             ri004391.rdyne.rockwell.com	7
+                      france.pfc.mit.edu	7
+                 ahayhurst.larc.nasa.gov	7
+                           194.77.25.129	7
+                    www-c1.proxy.aol.com	6
+                    www-a1.proxy.aol.com	6
+                        wjvd.global1.net	6
+                      e659229.boeing.com	6
+                    disarray.demon.co.uk	6
+                      aries.meaddata.com	6
+                alimingo.doe.state.in.us	6
+                           193.42.224.32	6
+                           128.198.64.15	6
+                         www.thyssen.com	5
+                    www-d2.proxy.aol.com	5
+                    www-d1.proxy.aol.com	5
+                    www-b3.proxy.aol.com	5
+                    proxy.austin.ibm.com	5
+                    piweba5y.prodigy.com	5
+                    piweba4y.prodigy.com	5
+                    piweba3y.prodigy.com	5
+                    piweba1y.prodigy.com	5
+                       lace.cs.bgu.ac.il	5
+                      gardner.plh.af.mil	5
+                         corpgate.nt.com	5
+                           193.232.16.99	5
+                           161.5.200.138	5
+                           134.57.102.96	5
+                  www-relay.pa-x.dec.com	4
+                    www-b5.proxy.aol.com	4
+                trusty.lmsc.lockheed.com	4
+                    tomdunc.interlog.com	4
+                 pslip016.ksc-fl.ids.net	4
+                     ojmac.larc.nasa.gov	4
+                  mpngate1.ny.us.ibm.net	4
+                 mac25.four-h.purdue.edu	4
+                    lseman1.wff.nasa.gov	4
+                 jhanley.doe.state.la.us	4
+                  jericho2.microsoft.com	4
+                 intgate.raleigh.ibm.com	4
+              info3.rus.uni-stuttgart.de	4
+                  godzilla.lerc.nasa.gov	4
+                     cd-12.continuum.net	4
+                     bnl871c.ags.bnl.gov	4
+                       bambi.te.rl.ac.uk	4
+                        antares.omsi.edu	4
+                           199.212.52.42	4
+                           139.169.30.50	4
+                    www-d4.proxy.aol.com	3
+                    www-d3.proxy.aol.com	3
+                    www-c4.proxy.aol.com	3
+                    www-c2.proxy.aol.com	3
+                    www-b4.proxy.aol.com	3
+                    www-b2.proxy.aol.com	3
+                      www.asahi-np.co.jp	3
+                        vaxb.isc.rit.edu	3
+                     speth.lerc.nasa.gov	3
+                      sahp315.sandia.gov	3
+                         ppp7.cuug.ab.ca	3
+              porthos.astro.sp-agency.ca	3
+                   pickett.larc.nasa.gov	3
+                               mv.mv.com	3
+                      madison-2.nara.gov	3
+                   keyhole.es.dupont.com	3
+                   jobrien-ppp.clark.net	3
+                             gw1.att.com	3
+                   gtwright.jsc.nasa.gov	3
+                   fireball.jpl.nasa.gov	3
+                   fcod-www.jsc.nasa.gov	3
+                 dialup31.infobahnos.com	3
+                  deepthought.armory.com	3
+                       csrc.interlog.com	3
+            centris106.geo.tsukuba.ac.jp	3
+                    cad169.cadvision.com	3
+                          bissett.mi.net	3
+                 bettong.client.uq.oz.au	3
+                          a1p8.inasec.ca	3
+                          193.114.55.101	3
+                          192.214.84.194	3
+                            170.55.40.58	3
+                          147.150.193.92	3
+                          141.102.80.167	3
+                          139.169.219.89	3
+                         132.254.128.141	3
+                            128.198.64.5	3
+                           128.198.64.14	3
+                   zunoman.lerc.nasa.gov	2
+      www-proxy.crl.research.digital.com	2
+                    www-c9.proxy.aol.com	2
+                    www-c6.proxy.aol.com	2
+travis_time:end:0b6ed7d1:start=1649737104722663295,finish=1649737107048277206,duration=2325613911,event=script
+[0K[32;1mThe command "bash h4-3.sh -g /shuttle/missions/sts-74/mission-sts-74.html" exited with 0.[0m
+travis_time:start:0a3f9c52
+[0K$ shellcheck h4-1.sh
+travis_time:end:0a3f9c52:start=1649737107052782814,finish=1649737107154453988,duration=101671174,event=script
+[0K[32;1mThe command "shellcheck h4-1.sh" exited with 0.[0m
+travis_time:start:0e4028e0
+[0K$ shellcheck h4-2.sh
+travis_time:end:0e4028e0:start=1649737107158667802,finish=1649737107178633311,duration=19965509,event=script
+[0K[32;1mThe command "shellcheck h4-2.sh" exited with 0.[0m
+travis_time:start:0ad68b00
+[0K$ shellcheck h4-3.sh
+travis_time:end:0ad68b00:start=1649737107182719774,finish=1649737107213668506,duration=30948732,event=script
+[0K[32;1mThe command "shellcheck h4-3.sh" exited with 0.[0m
+
+
+Done. Your build exited with 0.

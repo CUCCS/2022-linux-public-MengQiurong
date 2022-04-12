@@ -1,6 +1,6 @@
-# 实验四
+## 实验四
 
-## 实验任务
+### 实验任务
 
 #### 任务一
 
@@ -826,7 +826,7 @@
 	           /shuttle/missions/sts-74/mission-sts-74.html 1868
 	                               /elv/PEGASUS/minpeg1.gif 1845
 	                                   /elv/SCOUT/scout.gif 1835
- 
+
 
 - 4.统计不同响应状态码的出现次数和对应百分比
 
@@ -958,6 +958,18 @@
 
   ![test-h](pictures/h4-3/test-h.png)
 
+
+
+#### Travis CI
+
+根据本次实验要求写好[.travis.yml](https://github.com/CUCCS/2022-linux-public-MengQiurong/blob/H4/.travis.yml)文件，并将其与.sh文件一同push到仓库，在Travis CI中等待并运行。
+
+![项目开始](pictures/Travis/项目开始.png)
+
+
+
+![项目进行](pictures/Travis/项目进行.png)
+
 ### 问题及总结
 
 1.关于.svg文件压缩的问题：
@@ -1003,6 +1015,16 @@
 
 - 但是不太清楚为什么会报错，svg图像不可压缩吗？
 
+2.push作业报错：
+
+​	刚开始是因为我把web_log.tsv直接放在目录下，它大小超过100M，就push不上去，然后我下载了git-lfs-windows-v3.1.2exe，但是我不太会用，就没有去深究，我直接把这个大文件删掉之后确定文件夹中没有大文件，再继续push，也是不成功。
+
+​	后来试了很多次还是报错，git提交到GitHub出错，提示 ! [remote rejected] H4 -> H4 (pre-receive hook declined) 。网上搜索了很多都解决不了，我就删掉原有的文件夹，重新clone，再push就可以了。但是不知道为什么这次作业push的时候都需要我输入密码（？ 这个问题暂时还没有得到解决，因为输入密码也不是很麻烦、、
+
+
+
+**总结**：学会了使用Travis CI，学习了很多关于脚本文件编写的知识，在模仿、探索和实验中学习到了shell文件的编写。但是还是觉得脚本文件的编写对于我来说是有一定难度的ww，只能从简单的练起，不断熟悉不断进步了。
+
 ### 参考链接
 
 ①vimrc安装：[c4pr1c3/vimrc (github.com)](https://github.com/c4pr1c3/vimrc/)
@@ -1020,4 +1042,6 @@
 ⑦[2021-linux-public-Lychee00/chap0x04/codefile at 59f2315af612524250237beb3769434244a9cddd · CUCCS/2021-linux-public-Lychee00 (github.com)](https://github.com/CUCCS/2021-linux-public-Lychee00/tree/59f2315af612524250237beb3769434244a9cddd/chap0x04/codefile)
 
 ⑧[(45条消息) shell中文件后缀，目录等提取方法_binggan_2019的博客-CSDN博客_shell 后缀](https://blog.csdn.net/binggan_2019/article/details/89024460?ops_request_misc=&request_id=&biz_id=102&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-6)
+
+⑨解压7z文件：[(45条消息) linux下7z文件的解压方法_爷来辣的博客-CSDN博客_linux 解压7z](https://blog.csdn.net/xujiamin0022016/article/details/88789290)
 
